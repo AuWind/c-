@@ -2,16 +2,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-	//声明两个整形变量
-    int x ,y ;
-	//获取输入并存储在变量x
-	cin >> x ;
-	//变量y的值为变量x的10倍
-	y = 10 * x;
-	//使用流输出x,y的值
-	cout << x << " " << y << endl;
-	//使用标准输出x,y的值
-	printf("%d %d\n" , x , y);
+    int x ,y ;//声明两个整形变量
+	cin >> x ;//获取输入并存储在变量x
+	y = 10 * x;//变量y的值为变量x的10倍
+	cout << x << " " << y << endl;//使用流输出x,y的值
+	printf("%d %d\n" , x , y);//使用标准输出x,y的值
     return 0;
 }
 
